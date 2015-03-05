@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C4881F41AA8B90E00834402 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4881F31AA8B90E00834402 /* LoginViewController.swift */; };
 		E1569D061AA711CE0068B688 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1569CEB1AA711CE0068B688 /* BlurView.swift */; };
 		E1569D071AA711CE0068B688 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1569CEC1AA711CE0068B688 /* Data.swift */; };
 		E1569D081AA711CE0068B688 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1569CED1AA711CE0068B688 /* DesignableButton.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C4881F31AA8B90E00834402 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E1569CEB1AA711CE0068B688 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		E1569CEC1AA711CE0068B688 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		E1569CED1AA711CE0068B688 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
@@ -146,6 +148,7 @@
 		E1B268211A9EACCD00AFEA17 = {
 			isa = PBXGroup;
 			children = (
+				9C4881F31AA8B90E00834402 /* LoginViewController.swift */,
 				E1B2682C1A9EACCD00AFEA17 /* Test */,
 				E1B268421A9EACCE00AFEA17 /* TestTests */,
 				E1B2682B1A9EACCD00AFEA17 /* Products */,
@@ -303,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4881F41AA8B90E00834402 /* LoginViewController.swift in Sources */,
 				E1569D1D1AA711CE0068B688 /* TransitionManager.swift in Sources */,
 				E1B268321A9EACCD00AFEA17 /* ViewController.swift in Sources */,
 				E1569D181AA711CE0068B688 /* SpringImageView.swift in Sources */,
