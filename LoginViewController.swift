@@ -10,6 +10,7 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var dialogView: DesignableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,5 +19,9 @@ class LoginViewController: UIViewController {
 
     @IBAction func didTapCancel(sender: UIButton) {
         dismissViewControllerAnimated(true, completion: nil)
+    }
+    @IBAction func didTapLogin(sender: AnyObject) {
+        dialogView.animation = "shake"
+        dialogView.animate()
     }
 }

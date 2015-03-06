@@ -34,6 +34,7 @@
 		E1569D1D1AA711CE0068B688 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1569D031AA711CE0068B688 /* TransitionManager.swift */; };
 		E1569D1E1AA711CE0068B688 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1569D041AA711CE0068B688 /* TransitionZoom.swift */; };
 		E1569D1F1AA711CE0068B688 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1569D051AA711CE0068B688 /* UnwindSegue.swift */; };
+		E199E4941AA97DB4008CDEE5 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E199E4931AA97DB4008CDEE5 /* MenuViewController.swift */; };
 		E1B268301A9EACCD00AFEA17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B2682F1A9EACCD00AFEA17 /* AppDelegate.swift */; };
 		E1B268321A9EACCD00AFEA17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B268311A9EACCD00AFEA17 /* ViewController.swift */; };
 		E1B268351A9EACCD00AFEA17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B268331A9EACCD00AFEA17 /* Main.storyboard */; };
@@ -81,6 +82,7 @@
 		E1569D031AA711CE0068B688 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 		E1569D041AA711CE0068B688 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
 		E1569D051AA711CE0068B688 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		E199E4931AA97DB4008CDEE5 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		E1B2682A1A9EACCD00AFEA17 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B2682E1A9EACCD00AFEA17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1B2682F1A9EACCD00AFEA17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 		E1B268211A9EACCD00AFEA17 = {
 			isa = PBXGroup;
 			children = (
+				E199E4931AA97DB4008CDEE5 /* MenuViewController.swift */,
 				9C4881F31AA8B90E00834402 /* LoginViewController.swift */,
 				E1B2682C1A9EACCD00AFEA17 /* Test */,
 				E1B268421A9EACCE00AFEA17 /* TestTests */,
@@ -309,6 +312,7 @@
 				9C4881F41AA8B90E00834402 /* LoginViewController.swift in Sources */,
 				E1569D1D1AA711CE0068B688 /* TransitionManager.swift in Sources */,
 				E1B268321A9EACCD00AFEA17 /* ViewController.swift in Sources */,
+				E199E4941AA97DB4008CDEE5 /* MenuViewController.swift in Sources */,
 				E1569D181AA711CE0068B688 /* SpringImageView.swift in Sources */,
 				E1569D161AA711CE0068B688 /* SpringAnimation.swift in Sources */,
 				E1569D0C1AA711CE0068B688 /* DesignableTextField.swift in Sources */,
