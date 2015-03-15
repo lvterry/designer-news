@@ -10,12 +10,12 @@ import UIKit
 
 class MenuViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+    @IBOutlet weak var menu: DesignableView!
+    
     @IBAction func didTapCancel(sender: AnyObject) {
         dismissViewControllerAnimated(true, completion: nil)
+        menu.animation = "fall"
+        menu.animate()
+        
     }
 }

@@ -11,11 +11,6 @@ import UIKit
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var dialogView: DesignableView!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
 
     @IBAction func didTapCancel(sender: UIButton) {
         dismissViewControllerAnimated(true, completion: nil)
